@@ -359,7 +359,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.addCircle(new CircleOptions().center(userLocation).radius(5.0).strokeColor(Color.RED).strokeWidth(1).fillColor(Color.RED));
             }
             else{
-                mMap.addCircle(new CircleOptions().center(userLocation).radius(5.0).strokeColor(Color.RED).strokeWidth(1).fillColor(Color.BLUE));
+                mMap.addCircle(new CircleOptions().center(userLocation).radius(5.0).strokeColor(Color.BLUE).strokeWidth(1).fillColor(Color.BLUE));
             }
         }
         mMap.animateCamera(CameraUpdateFactory.newLatLng(userLocation));
